@@ -22,7 +22,7 @@ dataurl_1: https://drive.google.com/file/d/0Bw_vg8ODL-GaM01iN2FyeE82SDA/view?usp
 ### Preliminaries
 
 - Sticky notes (red and green)
-- A working internet connection (please use the hospital wireless)
+- A working internet connection (please use the NICST wireless)
 - Introduce youselves on Slack (use the web interface, or download the app to your computer or phone)
 - Pair programming
 - Live coding
