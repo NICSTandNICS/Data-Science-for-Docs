@@ -27,6 +27,7 @@ in working with {{page.domain %}} data in {{page.topic %}}.
 
 We have borrrowed heavily from the excellent [Data Carpentry programme](http://datacarpentry.org) in producing this course. However, this is _not_ a data carpentry course. We do not meet their specications (yet), although this is something we are working toward.
 
+NICST is a non profit organization which improve the quality of health care in Sri Lanka. 
 
 **Lesson Maintainers: {{page.maintainers | join: ', ' %}}**
 
