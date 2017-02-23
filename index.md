@@ -3,7 +3,7 @@ layout: lesson
 root: .
 lastupdated: May 5, 2016
 contributors: ["Ahmed Al-Hindawi", "Finn Catling", "Steve Harris", "Ed Palmer", "Danny Wong"]
-maintainers: ["Steve Harris"]
+maintainers: ["Dilanthi Gamage","Sithum Munasinghe", "Chathurani Sigera"]
 domain: Clinical 
 topic: Critical Care
 software: R
@@ -19,7 +19,7 @@ twitter_url: https://twitter.com/datascibc
 <!-- THE LESSON INFORMATION -->
 
 
-# {{ page.domain }} Data Science  for {{ page.topic }}
+# {{ page.domain }} Data Science  for {{ researchers and clinicians }}
 
 Data Science for Doc's aim is to teach doctors, nurses, and other health care professionals basic concepts, skills, and tools for working more effectively with data. The lessons below were designed for those interested
 in working with {{page.domain %}} data in {{page.topic %}}.
