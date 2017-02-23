@@ -3,7 +3,7 @@ layout: lesson
 root: .
 lastupdated: May 5, 2016
 contributors: ["Ahmed Al-Hindawi", "Finn Catling", "Steve Harris", "Ed Palmer", "Danny Wong"]
-maintainers: ["Dilanthi Gamage","Sithum Munasinghe", "Chathurani Sigera"]
+maintainers: ["Steve Harris","Chaturani", "Sithum", "Dilanthi"]
 domain: Clinical 
 topic: Critical Care
 software: R
@@ -19,13 +19,21 @@ twitter_url: https://twitter.com/datascibc
 <!-- THE LESSON INFORMATION -->
 
 
-# Data Science  for researchers and clinicians in Sri Lanka
+# {{ page.domain }} Data Science  for {{ page.topic }}
 
 Data Science for Doc's aim is to teach doctors, nurses, and other health care professionals basic concepts, skills, and tools for working more effectively with data. The lessons below were designed for those interested
-in working with data.
+in working with {{page.domain %}} data in {{page.topic %}}.
 
-This 1 day workshop for those wishing to learn more about data analysis, programming and visualisation. It will be free  and will be held at the NICST training centre in Borella. 
 
+**Content Contributors: {{page.contributors | join: ', ' %}}**
+
+We have borrrowed heavily from the excellent [Data Carpentry programme](http://datacarpentry.org) in producing this course. However, this is _not_ a data carpentry course. We do not meet their specications (yet), although this is something we are working toward.
+
+
+**Lesson Maintainers: {{page.maintainers | join: ', ' %}}**
+
+
+**Lesson status: {{ page.status }}**
 
 <!--
   [Information on Lesson Status Categories]()
@@ -85,3 +93,4 @@ We'd also recommend the following
     + [Learn R in R!](http://swirlstats.com)
 
 <p><strong>Twitter</strong>: @datascibc
+<p><strong>web</strong>: http://www.nics-training.com/
