@@ -3,7 +3,7 @@ layout: lesson
 root: .
 lastupdated: May 5, 2016
 contributors: ["Steve Harris", "Ahmed Al-Hindawi", "Finn Catling", "Ed Palmer", "Danny Wong"]
-maintainers: ["Steve Harris"]
+maintainers: ["Sithum Munasinghe","Chathurani Sigera","Dilanthi Gamage"]
 domain: Clinical 
 topic: Critical Care
 software: R
