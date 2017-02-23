@@ -5,12 +5,12 @@ title: Excel hell
 minutes: 25
 ---
 
-## Learning Objectives 
+## Learning Objectives
 
 <!-- Enumerate specific learning objectives in terms of what the learner will be able to completed by the end of the lesson -->
 
-<!--     * Excel Hell - (v1) Ed (v2) 
-        - [ ] live coding / practical session tidying a dirty sheet: use the RCT stuff
+<!--     * Excel Hell - (v1) Ed (v2)
+         * Version 3 re-written for NICS
  -->
 
 By the end of the session, delegates should be able to:
@@ -24,11 +24,10 @@ By the end of the session, delegates should be able to:
 
 ### Prerequisites
 
-You need to have installed either:
-- Google Chrome or similar web browser (to use google sheets)
-- A spreadsheet programme (Excel, Numbers, or Libre Office Calc etc.)
+You need to have installed:
+- A spreadsheet program (Excel, Numbers, or Libre Office Calc etc.)
 
-## Lesson 
+## Lesson
 
 - [Introduction](#introduction)
 - [Data Types](#data-types)
@@ -39,8 +38,6 @@ You need to have installed either:
 - [Testing your spreadsheet](#testing)
 
 <a name="introduction"></a>
-
-The accompanying slides for this lesson are available [here](02-lesson-02-excel-hell-slide.html).
 
 ## Introduction
 
@@ -85,15 +82,15 @@ These are `TRUE` or `FALSE` statements. Mathematically, these are represented by
 
 These are a special way of letting R know that the data is nominal or ordinal. Think about a likert scale. You want R to be able to categorise "satisfactory", "good", "excellent" etc. These are a special case of integers (counting numbers) data type, but stored with a label.  Additionally, when the data is ordered (like the likert scale) then an additional 'note' (called an attribute) is made so that R knows the order matters.
 
-An **un**ordered (nominal) factor
+An **unordered** (nominal) factor
 
 - apples
-- oranges 
+- oranges
 - pears
 
 R stores this as `1,2,3` for convenience but not because `1<2<3`.
 
-An ordered (ordinal) factor such as a Likert scale
+An **ordered** (ordinal) factor such as a Likert scale
 
 - Strongly disagree
 - Disagree
@@ -152,17 +149,9 @@ But you always need to remember that you need to go back and forth between both 
 
 So merged cells, colours, comments will both be lost and confuse.
 
-
 ## Unravelling Data
 
 Let's take the example some data that has already been collected and very kindly donated by one of our course delegates. The data is excellent, but doesn't conform to the necessary rules for working with R. You can download the original file from [Figshare](https://figshare.com/s/165cad3ce6eadbf6b19a).
-
-In the lesson, we are going to get you to collaboratively fix these data, and to this end we have created a copy in googlesheets. We'll send you the link to this in the lesson.
-
-<!-- 
-original view only https://docs.google.com/spreadsheets/d/19NG6DEMxSQbU-DEiKGIWvUkLFWtyxcbu0dJQjzpYfXI/edit?usp=sharing
-2016-11-15-course edit and view https://docs.google.com/spreadsheets/d/1J3Je_1lJJQ5Q1FV-HZaxUwMRYVYkIj2rEa3FAgPxREE/edit?usp=sharing 
--->
 
 We can use this data as an example of how to tidy your data in a spreadsheet application to make it ready for import to R. Using the cardinal rules, work in your pairs to transform this data an appropriate format for exporting to R.
 
@@ -239,7 +228,7 @@ Spreadsheets or statistical programs will likely mis-interpret blank cells that 
 
 <a name="formatting"></a>
 
-### Using formatting to convey information 
+### Using formatting to convey information
 
 **Example**: highlighting cells, rows or columns that should be excluded from an analysis, leaving blank rows to indicate separations in data.
 **Solution**: Computers are colour blind. Colour coding if fine if it helps you understand your data, as long as you recognise that it won't have any value in R. Adding in extra rows or columns to help format your data is going to damage your data as it will be interpreted as new observations. Create a new field to encode which data should be excluded.
@@ -327,7 +316,7 @@ Here we have our final clean data sheet. Download it, or use your own cleaned ve
 ## Exercises
 
 1. Choose a column from the the mastectomy RCT data and have a go at cleaning it
-2. Read one of the common mistakes sections above and teach your neighbour 
+2. Read one of the common mistakes sections above and teach your neighbour
 3. Compare the [dirty](https://figshare.com/s/165cad3ce6eadbf6b19a) and [clean](https://figshare.com/s/28e6b022c0d3fe63909e) versions of the data. Remember you don't have to clean things in the same way, but the principles here will save you a lot of time in the future. What more could be done?
 
 

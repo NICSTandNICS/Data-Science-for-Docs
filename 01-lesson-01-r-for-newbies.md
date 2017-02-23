@@ -4,16 +4,15 @@ root: .
 title: R for newbies
 minutes: 25
 ---
-<!-- - [ ] TODO(2016-05-19): factors and lists -->
 
-## Learning Objectives 
+## Learning Objectives
 
 - [What is R](#what-is-r)
 - [Why R](#why-r)
 - [Find your way around RStudio](#start-rstudio-and-have-a-look-around)  
 - [R building blocks](#r-building-blocks)
 
-## Lesson 
+## Lesson
 
 <a name="what-is-r"></a>
 
@@ -56,7 +55,7 @@ RStudio is an application layer that sits ontop of R. It gives you some of the c
 
 The screen should be divided in quadrants or panes. The two most important are labelled _Source_ (top left), and _Console_ (bottom left). On the right are supporting panes with tabs for finding help, and inspecting your files. If you can't see 4 panes then try clicking the 'minimise'/'maximise' icons in the top right corners of each pane.
 
-There's a handy cheat sheet for R studio available [here](https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf). 
+There's a handy cheat sheet for R studio available [here](https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf).
 
 > **Exercise:** Find the files tab and navigate to your project. If not already present, set up your project folder structure (I use folders for each of plots, data, reports and code). Navigate to your 'code' folder and then click on the 'more' button and select 'Set as working directory'.
 
@@ -76,7 +75,7 @@ There are 4 things to explain in the little code snippet above.
 3. We'll come back to the `[1]` at the beginning of the next line in a moment.
 4. R prints the answer `4`
 
-Re-assuring as it is that R knows that `2+2=4`, you were probably hoping for a little more. Typing directly into R is a start, but we want to teach you _reproducible_ research. The scientific method requires that we document our work, but we can't reproduce your typing unless we record it somewhere. 
+Re-assuring as it is that R knows that `2+2=4`, you were probably hoping for a little more. Typing directly into R is a start, but we want to teach you _reproducible_ research. The scientific method requires that we document our work, but we can't reproduce your typing unless we record it somewhere.
 
 > **TIP:** Use the up and down arrow keys to go backwards and forwards in your 'command' history to quickly fix typos.
 
@@ -84,7 +83,7 @@ Re-assuring as it is that R knows that `2+2=4`, you were probably hoping for a l
 
 #### Source (top left)
 
-The solution is to create a file, write your commmands in that file, and then tell R to work through the commands in that file. Switch to the pane labelled source, and this time type `2-2`. 
+The solution is to create a file, write your commmands in that file, and then tell R to work through the commands in that file. Switch to the pane labelled source, and this time type `2-2`.
 
 Now typing `enter` brings you to a new line. But go back to the line with `2-2` and hit `command-enter` (on Windows `control-enter`) instead. This sends the last line you wrote from the 'source' document, to the console. You should now see that R can add and substract!
 
@@ -120,7 +119,7 @@ It's going to be helpful to have an understanding of how files and folders (aka 
 
 As you can see, to move up a level, RStudio has given you a graphical representation of `..`. You'll be using relative paths more often than absolute paths. So lets look at them in more detail.
 
-- For example, if your working directory is your `documents` folder which is at 
+- For example, if your working directory is your `documents` folder which is at
     + Windows: `C:\Users\steve\documents`
     + Unix: `/Users/steve/documents`
 - And you want to go to the same `readme.docx` file as before. You would type
@@ -178,12 +177,12 @@ A `TRUE` or `FALSE` list  (a logical vector):
 
     TRUE, FALSE, TRUE, TRUE, FALSE
 
-We _index_ the list by counting from left to right starting with `1` (not `0`). 
+We _index_ the list by counting from left to right starting with `1` (not `0`).
 
 To make these vectors in R, we _combine_ the listed elements using `c()`.
 
     x <-  c("Q", "W", "E", "R", "T", "Y")
-    
+
 Now if you want the 3rd element, simply type `x[3]`.
 
     x <-  c("Q", "W", "E", "R", "T", "Y")
@@ -235,15 +234,15 @@ Functions are small specific programmes. They take an input, and give you an out
 Take a character Ed for example. If we want Ed to move accross the screen, we might write:
 
     ed.moveforward()
-    
+
 ![](img/ed_moves_forward_slow.gif)
-    
+
 The function `ed.moveforward` is something we've pre-written to get our character Ed to move forward across the screen. The `()` is the instruction to the computer to use that function. It's our 'go' command. This function takes no arguments at present. Arguments are additional pieces of informtion we can give to our function, to make its behaviour more specific. At the moment `ed.moveforward()` moves our character forward across the screen at a _really_ slow pace. Lets see if we can pass an argument into our function to speed him up.
 
     ed.moveforward(speed = "fast")
-    
+
 ![](img/ed_moves_forward_fast.gif)
-    
+
 Now we've given the `ed.moveforward` function it's first argument. This argument tells the function the speed at which Ed should move forward. Now let's look at how we can write our own function. I want Ed to move accross the screen, turn around and move back. We'll need a new function to help us: `ed.turnright()` which turns Ed through a quarter turn to his right.
 
     ed.return_to_start <- function() {
@@ -256,7 +255,7 @@ Now we've given the `ed.moveforward` function it's first argument. This argument
 Now we've written our function. We need to call it:
 
     ed.return_to_start()
-    
+
 ![](img/ed_moves_complete.gif)
 
 This is how we write a function. In this instance, we've grouped other useful functions together into a move complex behaviour. If you do this enough, you end up with a computer game. The key features of this are:
@@ -269,7 +268,7 @@ Let's do a quick clinical example to help consolidate the lesson. We want to wor
 
     BMI(height = 1.72, weight = 80)
     R> [1] 27.04164
-    
+
 Ok, lets write this function
 
     BMI <- function(height, weight) {
@@ -331,4 +330,3 @@ Selection: 1
 
 
 <!-- - [ ] TODO(2016-05-12): change working directory (point and click, console) -->
-
