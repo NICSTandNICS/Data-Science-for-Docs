@@ -24,16 +24,8 @@ twitter_url: https://twitter.com/datascibc
 Data Science for Doc's aim is to teach doctors, nurses, and other health care professionals basic concepts, skills, and tools for working more effectively with data. The lessons below were designed for those interested
 in working with data.
 
+This 1 day workshop for those wishing to learn more about data analysis, programming and visualisation. It will be free  and will be held at the NICST training centre in Borella. 
 
-**Content Contributors: {{page.contributors | join: ', ' %}}**
-
-We have borrrowed heavily from the excellent [Data Carpentry programme](http://datacarpentry.org) in producing this course. However, this is _not_ a data carpentry course. We do not meet their specications (yet), although this is something we are working toward.
-
-
-**Lesson Maintainers: {{page.maintainers | join: ', ' %}}**
-
-
-**Lesson status: {{ page.status }}**
 
 <!--
   [Information on Lesson Status Categories]()
