@@ -42,9 +42,10 @@ This is an opportunity to check that you were able to complete all the pre-requi
 
 ### Introducing the data
 
-We'd like to introduce the main data source that will be using during the course. Our goal is to show you by example, what you can achieve with your own data.
+We'd like to introduce the main data sources that we will be using during the course. Our goal is to show you by example, what you can achieve with your own data.
 
-Our data is from gapminder, we will start to orientate it with you over the next few talks.
+- Data from gapminder, we will start to orientate it with you over the next few talks.
+- Data a colleague kindly donated for us to explore
 
 You are also encouraged to bring along your own data. We can't promise to spend time on this, but there are exercises to do along the way, and you might want to try these exercises out on your own work.
 

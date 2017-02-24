@@ -17,7 +17,7 @@ Learning Objectives
 
 <!-- * Getting data into R - (v1) Ahmed (v2) Ed (v3) Steve
 
-keep theme of square tables frome excel to csv now to data.frame
+keep theme of square tables from excel to csv now to data.frame
 how to get these in
 how to do this 'automagically'
 
@@ -26,7 +26,7 @@ how to do this 'automagically'
 - [ ] foobar
 
  -->
- 
+
 Lesson
 ------
 
@@ -176,15 +176,15 @@ name using the `$` operator: e.g. df$some\_column
     ##  [79] versicolor versicolor versicolor versicolor versicolor versicolor
     ##  [85] versicolor versicolor versicolor versicolor versicolor versicolor
     ##  [91] versicolor versicolor versicolor versicolor versicolor versicolor
-    ##  [97] versicolor versicolor versicolor versicolor virginica  virginica 
-    ## [103] virginica  virginica  virginica  virginica  virginica  virginica 
-    ## [109] virginica  virginica  virginica  virginica  virginica  virginica 
-    ## [115] virginica  virginica  virginica  virginica  virginica  virginica 
-    ## [121] virginica  virginica  virginica  virginica  virginica  virginica 
-    ## [127] virginica  virginica  virginica  virginica  virginica  virginica 
-    ## [133] virginica  virginica  virginica  virginica  virginica  virginica 
-    ## [139] virginica  virginica  virginica  virginica  virginica  virginica 
-    ## [145] virginica  virginica  virginica  virginica  virginica  virginica 
+    ##  [97] versicolor versicolor versicolor versicolor virginica  virginica
+    ## [103] virginica  virginica  virginica  virginica  virginica  virginica
+    ## [109] virginica  virginica  virginica  virginica  virginica  virginica
+    ## [115] virginica  virginica  virginica  virginica  virginica  virginica
+    ## [121] virginica  virginica  virginica  virginica  virginica  virginica
+    ## [127] virginica  virginica  virginica  virginica  virginica  virginica
+    ## [133] virginica  virginica  virginica  virginica  virginica  virginica
+    ## [139] virginica  virginica  virginica  virginica  virginica  virginica
+    ## [145] virginica  virginica  virginica  virginica  virginica  virginica
     ## Levels: setosa versicolor virginica
 
     df$Petal.Length

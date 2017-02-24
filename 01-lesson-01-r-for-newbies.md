@@ -231,7 +231,7 @@ Moreover, rather than having to use numerical addresses to look at data, you can
 
 Functions are small specific programmes. They take an input, and give you an output. They perform tasks. To perform a task, they need an input, and the result of their work is the output.
 
-Take a character Ed for example. If we want Ed to move accross the screen, we might write:
+Take a character Ed for example. If we want Ed to move across the screen, we might write:
 
     ed.moveforward()
 

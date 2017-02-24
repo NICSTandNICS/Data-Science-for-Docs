@@ -1,15 +1,15 @@
 ---
 layout: lesson
 root: .
-lastupdated: May 5, 2016
+lastupdated: February 24, 2017
 contributors: ["Ahmed Al-Hindawi", "Finn Catling", "Steve Harris", "Ed Palmer", "Danny Wong"]
 maintainers: ["Steve Harris","Chaturani", "Sithum", "Dilanthi"]
-domain: Clinical 
+domain: Clinical
 topic: Critical Care
 software: R
 dataurl_1: https://ndownloader.figshare.com/files/5094199?private_link=aff8f0912c76840c7526
 dataurl_2: https://figshare.com/s/165cad3ce6eadbf6b19a
-status: Under Development 
+status: Under Development
 twitter_url: https://twitter.com/datascibc
 ---
 
@@ -57,21 +57,18 @@ Finally, please complete the [pre-course survey](http://goo.gl/forms/odmaxWP2KBH
 
 ## Lessons:
 
-We'll cover the 6 lessons during the day. The programme is flexible, but an outline is available [here](CourseProgramme.html).
+We'll cover the 4 lesson during the day, with plenty of hands on help and live coding throughout. The programme is flexible, but an outline is available [here](CourseProgramme.html).
 
 1. [Preliminaries](00-lesson-00-intro.html)
 2. [R for newbies](01-lesson-01-r-for-newbies.html)
 3. [Excel Hell](02-lesson-02-excel-hell.html)
-4. [Getting data into R](03-lesson-03-getting-data-into-r.html)
-5. [Data wrangling](04-lesson-04-data-wrangling.html)
-6. [Just enough statistics](05-lesson-05-just-enough-statistics.html)
-7. [Data visualisation](06-lesson-06-dataviz.html)
+4. [The Data Pipeline](03-lesson-03-getting-data-into-r.html)
 
 <!-- 6. [Just enough statistics](06-lesson-06-just-enough-statistics.html) -->
 
 ## Data
 
-Data files for the lesson are available here: 
+Data files for the lesson are available here:
 
 - An [RCT]({{page.dataurl_2%}}) comparing post-operative pain control after axillary node dissection with local anaesthetic infiltration via the drain versus injection to the skin flaps (Thanks to Muska Khpal)
 - [SPOTlight study data]({{page.dataurl_1 %}}): an observational study of deteriorating ward patients referred to critical care
@@ -80,7 +77,7 @@ You are also encourage to bring along your own data. We can't promise to spend t
 
 ## Help ##
 
-Where to get help? Firstly, we'd strongly encourage you to ask the group. To this end, we have set up a [slack group](https://datascibc.slack.com) - this is an instant messaging service (like whatsapp or similar) but with much better tools for sharing files, and working with code. If you're on the course, you should already have received an invite. Let us know if not. 
+Where to get help? Firstly, we'd strongly encourage you to ask the group. To this end, we have set up a [slack group](https://nicst.slack.com) - this is an instant messaging service (like whatsapp or similar) but with much better tools for sharing files, and working with code. If you're on the course, you should already have received an invite. Let us know if not.
 
 We'd also recommend the following
 
