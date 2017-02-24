@@ -62,7 +62,7 @@ We'll cover the 4 lesson during the day, with plenty of hands on help and live c
 1. [Preliminaries](00-lesson-00-intro.html)
 2. [R for newbies](01-lesson-01-r-for-newbies.html)
 3. [Excel Hell](02-lesson-02-excel-hell.html)
-4. [The Data Pipeline](03-lesson-03-getting-data-into-r.html)
+4. [The Data Pipeline](03-lesson-03-pipeline.html)
 
 <!-- 6. [Just enough statistics](06-lesson-06-just-enough-statistics.html) -->
 
