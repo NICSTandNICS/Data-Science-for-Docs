@@ -1,8 +1,8 @@
 ---
-title: "r_for_newbies"
+title: "r for newbies"
 author: "Edward Palmer"
 date: "15/11/2016"
-output: beamer_presentation
+output: revealjs::revealjs_presentation
 font-family: "helvetica"
 ---
 
